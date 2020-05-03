@@ -1,0 +1,40 @@
+.app__logo {
+    background: $grey-darker;
+    border-bottom: 1px solid;
+
+    .title {
+        color: $white;
+        padding: $size-7;
+        padding-left: $size-4;
+        position: relative;
+        top: 5px;
+    }
+}
+
+.app__sidebar {
+    background: $grey-darker;
+    padding-top: 4.75rem;
+    padding-left: 1.5rem;
+}
+
+.app__nav {
+    border-bottom: 1px solid $grey-lighter;
+}
+
+.app__search {
+    width: 320px;
+    display: flex;
+    align-items: center;
+
+    @media (min-width: $desktop) {
+        width: 540px;
+    }
+
+    .icon {
+        top: 6px !important;
+    }
+}
+
+.app__userpic {
+    max-width: 24px;
+}

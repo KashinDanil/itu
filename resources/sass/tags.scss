@@ -1,0 +1,16 @@
+.tag {
+    &.tag--bug {
+        background-color: $danger;
+        color: $white;
+    }
+
+    &.tag--feature {
+        background-color: $success;
+        color: $white;
+    }
+
+    &.tag--documentation {
+        background-color: $warning;
+        color: $white;
+    }
+}

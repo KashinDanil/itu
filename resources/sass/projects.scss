@@ -1,0 +1,19 @@
+.app__project-list {
+    &-name {
+        display: block;
+        width: 100%;
+    }
+
+    &-description {
+        font-size: $size-7;
+    }
+
+    &-counter {
+        font-size: $size-7;
+        padding-left: 3px;
+    }
+
+    &-icon {
+        margin-right: 5px;
+    }
+}

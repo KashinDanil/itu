@@ -1,0 +1,27 @@
+.app__task-list {
+    &-tags {
+        margin-bottom: 0.25rem;
+    }
+
+    &-comments {
+        font-size: $size-7;
+        white-space: nowrap;
+    }
+}
+
+.app__task {
+    &-summary {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid $grey-lighter;
+
+        &-item {
+            display: inline-block;
+            margin-right: 2rem;
+        }
+    }
+
+    &-comments {
+        padding-bottom: 1.5rem;
+    }
+}
